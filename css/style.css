@@ -82,13 +82,16 @@ header{
 .third-section{
     background: hsl(220, 16%, 96%);
 }
-
+.cart{
+    cursor:pointer;
+}
 .articles-sec{
     background-color: hsl(0, 0%, 98%);
 }
 .card{
     border-radius: 1.1rem;
     margin: 1.4rem 0;
+    cursor:pointer;
 }
 .card img{
     border-top-left-radius: 1.1rem;
