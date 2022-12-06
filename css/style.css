@@ -144,12 +144,12 @@ footer li a:hover{
         left: 0;
         width: 100%;
     }
-    .container-left{
+/*     .container-left{
         padding: 1rem;
-    }
+    } */
     .main-content{
         text-align: center;
-        margin-top: 25rem;
+        margin-top: 2rem;
     }
 
     .row{
