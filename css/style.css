@@ -149,7 +149,6 @@ footer li a:hover{
     } */
     .main-content{
         text-align: center;
-        margin-top: 2rem;
     }
 
     .row{
@@ -160,22 +159,13 @@ footer li a:hover{
         text-align: center;
     }
     .main-content {
-        padding-left: 7rem;
         text-align: center;
-        width: 100vw;
     }
     .main-content h1 {
-        width: 100%;
         font-size: 3.5rem;
     }
-    .cart{
+    .cart,.third-content,.container{
         text-align: center;
     }
-    .third-content{
-        text-align: center;
-    }
-    .container{
-        text-align: center;
-    }
-
 }
+
