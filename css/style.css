@@ -149,8 +149,9 @@ footer li a:hover{
     } */
     .main-content{
         text-align: center;
+        margin-top: 2rem;
+        margin-left: auto;
     }
-
     .row{
         justify-content: center;
     }
