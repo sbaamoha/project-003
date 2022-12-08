@@ -53,17 +53,14 @@ header{
 }
 .main{
     background-color: hsl(0, 0%, 98%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-left{
     padding: 2rem;
-}
-
-main{
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .main-images{
     position: relative;
