@@ -1,12 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
 }
 header{
-    z-index: 99;
-    position: relative;
+    z-index: 5;
+    position: fixed;
+    width: 100vw;
     background: #fff;
-    height: 10vh;
+    height: 11vh;
 }
 .buttonGreen{
     color: #fff;
@@ -24,7 +28,6 @@ header{
 .nav-link{
     position: relative;
 }
-
 
 /*.nav-link:hover{
     font-weight: bolder;
@@ -44,8 +47,7 @@ header{
     background-image: linear-gradient(to Right,hsl(136, 65%, 51%),hsl(192, 70%, 51%) );
 }
 .nav-link:hover::after,
-.nav-link:hover
-{
+.nav-link:hover{
     width: 90%;
     font-weight: 700;
 }
@@ -54,7 +56,14 @@ header{
 }
 
 .container-left{
-    padding-left: 10rem;
+    padding: 2rem;
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .main-images{
     position: relative;
@@ -76,9 +85,6 @@ header{
     z-index: 99;
 }
 
-
-
-
 .third-section{
     background: hsl(220, 16%, 96%);
 }
@@ -97,10 +103,7 @@ header{
     border-top-left-radius: 1.1rem;
     border-top-right-radius: 1.1rem;
     object-fit: cover;
-    
 }
-
-
 footer{
     background: hsl(233, 26%, 24%);
 }
@@ -120,53 +123,42 @@ footer li a{
 footer li a:hover{
     color: hsl(136, 65%, 51%);
 }
+
+
 @media (max-width: 800px){
     .main{
         position: relative;
+        height: 100vh;
     }
     .navbar-collapse{
+        position: relative;
+        text-align: center;
         background: white;
         color: hsl(136, 65%, 51%);
         width: 100%;
-        height: 100vh;
+        height: 55vh;
         padding: 2.6rem;
-        position: absolute;
     }
     .nav-link::after{
         content: "";
         display: none;
     }
-    .main-images{
-        flex-direction: column;
+    .container-left{
+        display: flex;
         justify-content: center;
-        position: absolute;
-        top: 30vh;
-        left: 0;
-        width: 100%;
+        align-items: center;
+        padding-top: 2rem;
     }
-/*     .container-left{
-        padding: 1rem;
-    } */
-    .main-content{
-        text-align: center;
-        margin-top: 2rem;
-        margin-left: auto;
+    .container-left .main-content{
+        padding-top: 3rem;
     }
-    .row{
-        justify-content: center;
-    }
-    .header .navbar-collapse{
-        position: relative;
-        text-align: center;
-    }
-    .main-content {
-        text-align: center;
-    }
+ 
     .main-content h1 {
         font-size: 3.5rem;
     }
-    .cart,.third-content,.container{
-        text-align: center;
+    .main-images{
+        display: none;
     }
+    
 }
 
